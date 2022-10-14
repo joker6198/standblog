@@ -1,0 +1,25 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+
+.list li {
+    border: 1px solid;
+    flex: 1 1 auto;
+    text-align: center;
+    margin: 0% 5%;
+}
+
+.list li:hover {
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+
+.listDiv {
+    border: 1px solid rebeccapurple; 
+    width: 20%;
+}
